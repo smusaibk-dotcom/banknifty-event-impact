@@ -1,0 +1,16 @@
+[metadata]
+index_name = "Nifty Bank"
+index_symbol = "BANKNIFTY"
+currency = "INR"
+
+[ingestion_scope]
+start_date = "2023-01-01"
+end_date = "2026-08-31"
+constituents = [
+    "HDFCBANK", "ICICIBANK", "SBIN", "AXISBANK", "KOTAKBANK", 
+    "INDUSINDBK", "BANKBARODA", "PNB", "AUBANK", "IDFCFIRSTB", 
+    "FEDERALBNK", "BANDHANBNK"
+]
+
+[storage]
+raw_data_dir = "data/raw"
